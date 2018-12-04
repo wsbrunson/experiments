@@ -1,0 +1,33 @@
+.home {
+}
+
+.home__title {
+  font-size: 24px;
+  font-weight: 800px;
+  margin-bottom: 24px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 8px;
+  padding: 8px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  border-bottom: solid 1px black;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: black;
+}

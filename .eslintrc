@@ -1,19 +1,19 @@
 {
   "extends": [
-  "react-app",
+    "react-app",
     "eslint:recommended",
     "plugin:react/recommended",
- "plugin:prettier/recommended"
+    "plugin:prettier/recommended"
   ],
-  "plugins": [
-  "react",
-    "sort-imports-es6-autofix"
-  ],
+  "plugins": ["react", "sort-imports-es6-autofix"],
   "rules": {
-    "sort-imports-es6-autofix/sort-imports-es6": [2, {
-      "ignoreCase": false,
-      "ignoreMemberSort": false,
-      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
-    }]
+    "sort-imports-es6-autofix/sort-imports-es6": [
+      2,
+      {
+        "ignoreCase": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+      }
+    ]
   }
 }

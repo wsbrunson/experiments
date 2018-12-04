@@ -3,18 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reach/router": "^1.2.1",
+    "animejs": "^2.2.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "react-transition-group": "^2.5.0",
+    "reset-css": "^4.0.1",
+    "xstate": "^4.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start-site": "cd packages/experiments-site && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
@@ -23,12 +25,12 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-sort-imports-es6-autofix": "^0.3.0",
     "flow-bin": "^0.86.0",
+    "lerna": "^3.5.1",
     "prettier": "^1.15.2"
   }
 }
